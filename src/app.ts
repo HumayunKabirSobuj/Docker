@@ -18,7 +18,6 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/api", router);
 
-
 app.use(globalErrorHandler);
 
 app.get("/", (req: Request, res: Response) => {
